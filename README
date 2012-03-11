@@ -1,21 +1,4 @@
-Yo, this is just the first commit, don't get too exited
+This is basically just an external repo for the website work for SSD records. 
+Site needs a wp theme and some artist tools
 
-Global setup:
- Set up git
-  git config --global user.name "Jonny Dark"
-  git config --global user.email jonny@jonnydark.com
-      
-Next steps:
-  mkdir SSD.v2
-  cd SSD.v2
-  git init
-  touch README
-  git add README
-  git commit -m 'first commit'
-  git remote add origin git@github.com:jonnydark/SSD.v2.git
-  git push -u origin master
-      
-Existing Git Repo?
-  cd existing_git_repo
-  git remote add origin git@github.com:jonnydark/SSD.v2.git
-  git push -u origin master
+
