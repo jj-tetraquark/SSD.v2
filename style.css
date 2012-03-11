@@ -7,7 +7,7 @@
  * License: All rights reserved
  * Author: Jonny Dark
  * Author URI: http://www.jonnydark.com
- * */
+ */
 
 /* Bare Necessities */
 body
@@ -28,10 +28,27 @@ a:visited
 	color:#CC0000;
 }
 
+img 
+{
+  border: none;
+}
+
+.centre, .center /*because I know I'm not going to be consistent because I suck*/
+{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*styles relating to the header*/
+#header
+{
+  max-width:960px;
+  width: 80%;
+}
+
 
 /*Image Stuff */
 
-img {border: none;}
 
 .urline img {
 	border-bottom: none;
