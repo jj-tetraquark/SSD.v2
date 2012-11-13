@@ -7,5 +7,6 @@ Superstar Destroyer Records Wordpress Site
 2. Fix the dropdown nav
 3. Coverflow style releases page
 4. Home page
-5. Think of more stuff to add to this list
-6. ~~Not sell out~~Try and sell out for hookers and cocaine
+5. Redesign and build artist pages
+6. Think of more stuff to add to this list
+7. ~~Not sell out~~Try and sell out for hookers and cocaine
