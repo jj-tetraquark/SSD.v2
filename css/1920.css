@@ -1,0 +1,253 @@
+/* font sizes */
+body {
+  font-size:14px;
+}
+
+h1 {
+  font-size:48px;
+  margin-bottom:5px;
+}
+
+h3 {
+  font-size:28px;
+}
+
+h4 {
+  font-size:20px;
+}
+
+h5 {
+  font-size: 18px;
+}
+
+
+.smallgrey {
+  font-size:11px;
+}
+
+/*styles relating to the header*/
+#header {
+  width: 780px;
+  height:198px;
+  background-image:url('images/header1920.jpg');
+  padding-right:20px;
+}
+
+/* Link for the header */
+#headerlink {
+  width:780px;
+  height:198px;
+}
+
+/*nav bar */
+#navbar {
+  margin-top:5px;
+  width: 1280px;
+}
+
+
+#nav {
+  margin:0;
+  padding:0;
+  list-style:none;
+}
+
+#nav li {
+  padding-right:32px;
+  padding-left:32px;
+}
+
+/*Parent Menu*/
+  #nav li a {
+    font-size:38px;
+    height:38px;
+  }
+    
+   
+ /* Sub Menu*/  
+    #nav ul li {
+      width:220px; 
+    }
+      
+    #nav ul a {
+      font-size:16px;
+    } 
+      
+
+
+#wrapper {
+  width:900px;
+}
+
+
+#posts {
+  width:620px;
+}
+
+
+.entry {
+  width:620px;
+  margin-top:80px;
+}
+
+#pagetext {
+  width: 700px;
+  margin-top:80px;
+}
+
+
+#mailing {
+  top:-28px;
+  left:650px;
+  width:220px;
+}
+
+.shortbar {
+  width:100px;
+}
+
+/* Wordpress search bar */
+#s {
+  width:160px;
+}
+
+#sidebar {
+  width:240px;
+  font-size:11px;
+}
+
+#sidebar ul li {
+  padding:2px;
+  list-style-type:square;
+}
+
+
+/* SOCIAL MEDIA BUTTONS */
+
+#socialbuttons {
+  width:72px;
+  top:300px;
+}
+
+
+ul.socialbuttons {
+	list-style:none;
+	padding: 0px;
+	}
+
+ul.socialbuttons li a {
+	height:72px;
+	width: 72px;
+	background:url(images/socialbuttons_m.gif);
+}
+	
+ul.socialbuttons li div {
+  top: 20px;
+  left: 100px;
+}
+
+
+/* Normal Links */
+
+
+ul.socialbuttons li.facebook a {
+	background-position: 0px 0px;
+	}
+	
+ul.socialbuttons li.twitter a {
+	background-position: -73px 0px;
+	}
+	
+ul.socialbuttons li.mixcloud a {
+	background-position: -146px 0px;
+	}
+	
+ul.socialbuttons li.youtube a {
+	background-position: -218px 0px;
+	}
+	
+ul.socialbuttons li.rss a {
+	background-position: -290px 0px;
+	}
+
+ul.socialbuttons li.soundcloud a {
+	background-position: -363px 0px;
+	}
+	
+ul.socialbuttons li.myspace a {
+	background-position: -435px 0px;
+	}
+
+ul.socialbuttons li.lastfm a {
+	background-position: -507px 0px;
+	}
+
+/* Hover Links */
+
+ul.socialbuttons li.facebook a:hover {
+	background-position: 0 -72px;
+	}
+	
+ul.socialbuttons li.twitter a:hover {
+	background-position: -73px -72px;
+	}
+	
+ul.socialbuttons li.mixcloud a:hover {
+	background-position: -146px -72px;
+	}
+	
+ul.socialbuttons li.youtube a:hover {
+	background-position: -218px -72px;
+	}
+	
+ul.socialbuttons li.rss a:hover {
+	background-position: -290px -72px;
+	}
+	
+ul.socialbuttons li.soundcloud a:hover {
+	background-position: -363px -72px;
+	}
+	
+ul.socialbuttons li.myspace a:hover {
+	background-position: -435px -72px;
+	}
+
+ul.socialbuttons li.lastfm a:hover {
+	background-position: -507px -72px;
+	}	
+
+
+/* Clicked Links */
+
+ul.socialbuttons li a:active {
+	background-position: 0 -144px;
+	}	
+
+ul.socialbuttons li.twitter a:active {
+	background-position: -73px -144px;
+	}
+	
+ul.socialbuttons li.mixcloud a:active {
+	background-position: -146px -144px;
+	}
+	
+ul.socialbuttons li.youtube a:active {
+	background-position: -218px -144px;
+	}
+	
+ul.socialbuttons li.rss a:active {
+	background-position: -290px -144px;
+	}
+
+ul.socialbuttons li.soundcloud a:active {
+	background-position: -363px -144px;
+	}
+	
+ul.socialbuttons li.myspace a:active {
+	background-position: -435px -144px;
+	}
+
+ul.socialbuttons li.lastfm a:active {
+	background-position: -507px -144px;
+	}
+

@@ -10,45 +10,105 @@
  */
 
 /* Bare Necessities */
-body
-{
+body {
   background-color: #FFF;
   color: #0b0b0b;
   font-family: Helvetica, Arial, sans-serif;
   font-size:12px;
+  margin:0;
 }
 
-a:link 
-{
+a {
 	color:#c9140d;
 }
-	
-a:visited 
-{
+
+a:visited {
 	color:#CC0000;
 }
 
-img 
-{
-  border: none;
+
+.bebas {
+  font-family: 'Bebas', Impact, Sans-serif;
+  font-size:120%;
 }
 
-.centre, .center /*because I know I'm not going to be consistent because I suck*/
-{
+.bebas a {
+  color: #0b0b0b;
+  text-decoration: none;
+}
+
+.bebas a:hover {
+  color: #666;
+}
+
+
+h1 {
+  font-family: 'Bebas', Impact, Sans-serif;
+  font-weight:normal;
+}
+
+h1 a {
+  color:#000;
+  text-decoration:none;
+}
+
+h1 a:visited {
+  color:#0b0b0b;
+}
+
+h1 a:hover {
+  color:#666;
+}
+
+
+h4, h3 {
+  font-family: 'Bebas', Impact, Sans-serif;
+  font-weight:normal;
+  margin:0px;
+}
+
+
+
+h5 {
+  font-family: Helvetica, Arial, Sans-serif;
+  font-weight:normal;
+  margin-bottom:0px;
+}
+
+.smallgrey {
+  display:block;
+  color:#666;
+}
+
+
+
+.centre, .center, #navbar, #wrapper, #pagetext{
   margin-left: auto;
   margin-right: auto;
 }
 
-/*styles relating to the header*/
-#header
-{
-  max-width:960px;
-  width: 80%;
+li {
+  list-style:none;
+}
+
+/* BEBAS font */
+@font-face {
+    font-family: 'Bebas';
+    src: url('css/fonts/bebas_mod-webfont.eot');
+    src: url('css/fonts/bebas_mod-webfont.eot?#iefix') format('embedded-opentype'),
+         url('css/fonts/bebas_mod-webfont.woff') format('woff'),
+         url('css/fonts/bebas_mod-webfont.ttf') format('truetype'),
+         url('css/fonts/bebas_mod-webfont.svg#BebasRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 
 
-/*Image Stuff */
 
+/*Image Stuff */
+img {
+  border: none;
+}
 
 .urline img {
 	border-bottom: none;
@@ -61,6 +121,7 @@ img
 /*ids */
 	
 #credits {
+  padding-top:30px;
 	font-family:Arial, Helvetica, sans-serif;
 	color:#999999;
 	font-size:10px;
@@ -79,358 +140,278 @@ img
 	font-size:12px;
 	}
 
-/*Basic Stuff */ 
-		  
-a:link {
-	color:#c9140d;
-	}
-	
-a:visited {
-	color:#CC0000;
-	}
-
-body,td,th {
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 13px;
-}
-
-h5 {
-	font-family: Arial, Helvetica, sans-serif;
-	color:#c9140d;
-	margin-top:0px;
-	margin-bottom:0px;
-	text-decoration:none;
-	font-size:14px
-	}
-	
-h4 {
-	font-family: Arial, Helvetica, sans-serif;
-	color:#c91405;
-	padding-top:0px;
-	padding-bottom:0px;
-	font-size:16px
-	}
-
-.content {
-	width:700px;
-	margin-left:auto;
-	margin-right:auto;
-	clear:both;
-	}
-
 /* Classes */
-
-.headerlink a {
-	text-decoration:none;
-	}
-	
-.headerlink a:hover {
-	border-bottom:thin #c9140d solid;
-	}
-	
-
-.tableborder {
-	border: 1px solid #000;
-	padding:0;
-	}
-
-
-
-/* SOCIAL MEDIA BUTTONS */
-
-ul.socialbuttons {
-	list-style:none;
-	padding: 0px;
-	}
-
-ul.socialbuttons li {
-	float: left;
-	}
-	
-ul.socialbuttons li a {
-	display:block;
-	height:38px;
-	width: 40px;
-	background:url(images/socialbuttonssmall.jpg);
-	}
-	
-/* Normal Links */
-
-
-ul.socialbuttons li.facebook a {
-	background-position: 0 0;
-	}
-	
-ul.socialbuttons li.twitter a {
-	background-position: -40px 0;
-	}
-	
-ul.socialbuttons li.mixcloud a {
-	background-position: -80px 0;
-	}
-	
-ul.socialbuttons li.youtube a {
-	background-position: -120px 0;
-	}
-	
-ul.socialbuttons li.rss a {
-	background-position: -160px 0;
-	}
-
-ul.socialbuttons li.soundcloud a {
-	background-position: -200px 0;
-	}
-	
-ul.socialbuttons li.myspace a {
-	background-position: -240px 0;
-	}
-
-ul.socialbuttons li.lastfm a {
-	background-position: -280px 0;
-	}
-
-/* Hover Links */
-
-ul.socialbuttons li.facebook a:hover {
-	background-position: 0 -39px;
-	}
-	
-ul.socialbuttons li.twitter a:hover {
-	background-position: -40px -39px;
-	}
-	
-ul.socialbuttons li.mixcloud a:hover {
-	background-position: -80px -39px;
-	}
-	
-ul.socialbuttons li.youtube a:hover {
-	background-position: -120px -39px;
-	}
-	
-ul.socialbuttons li.rss a:hover {
-	background-position: -160px -39px;
-	}
-	
-ul.socialbuttons li.soundcloud a:hover {
-	background-position: -200px -39px;
-	}
-	
-ul.socialbuttons li.myspace a:hover {
-	background-position: -240px -39px;
-	}
-
-ul.socialbuttons li.lastfm a:hover {
-	background-position: -280px -39px;
-	}	
-/* Clicked Links */
-
-ul.socialbuttons li a:active {
-	background-position: 0 -78px;
-	}	
-
-ul.socialbuttons li.twitter a:active {
-	background-position: -40px -78px;
-	}
-	
-ul.socialbuttons li.mixcloud a:active {
-	background-position: -80px -78px;
-	}
-	
-ul.socialbuttons li.youtube a:active {
-	background-position: -120px -78px;
-	}
-	
-ul.socialbuttons li.rss a:active {
-	background-position: -160px -78px;
-	}
-
-ul.socialbuttons li.soundcloud a:active {
-	background-position: -200px -78px;
-	}
-	
-ul.socialbuttons li.myspace a:active {
-	background-position: -240px -78px;
-	}
-
-ul.socialbuttons li.lastfm a:active {
-	background-position: -280px -78px;
-	}
-
-/* NAVIGATION BAR */ 
-
-ul.cssmenu {
-	list-style: none;
-	padding: 0px;
-	}
-	
-ul, li {
-    list-style-type: none;
-}
 
 .displace {
 	position: absolute;
 	left: -5000px;
 	}
 
-ul.cssmenu li {
-	float: left;
-	}
 
-ul.cssmenu li a {
-	display: block;
-	height: 32px;
-	background: url('images/menu.jpg');
-	}
+/*Header styles */
+#header {
+  background-repeat:no-repeat;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+#headerlink {
+  color:#fff;
+  display:block;
+}
+
+/* Navigation bar */
+#nav li {
+  float:left;
+  display:inline-block;
+  position:relative;
+  z-index:5; 
+  margin:0 1px;
+  text-align:center;
+}
+
+#nav li a {
+    font-family: 'Bebas', Impact, Sans-serif;
+    text-decoration:none;
+    text-align:center;
+    display:block;
+    color:#0b0b0b;
+}
+  
+/* Parent Menu */
+  #nav li a:hover {
+    color:#666;
+  }
+  
+   #nav li.current_page_item a {
+    color:#c9140d;
+  }
+
+
+  #nav li.current_page_parent a {
+    color:#c9140d;
+    }
+
+/* Sub Menu */
+    #nav ul {
+      position:absolute; 
+      left:0;
+      display:none;
+      padding:0; 
+      list-style:none;
+      margin-top:10px;
+      margin-left:-30px;
+    }
+   
+    #nav ul li {
+      float:left;
+    }
+
+    #nav ul a {
+      display:block;  
+      height:30px;
+      padding-top:10px;
+      background-color:rgba(255,255,255,0.95);
+      text-align:left;
+      margin-left:20px;
+      padding-left:10px;
+      border-left: 1px solid #666;
+      border-bottom: 1px solid #ccc;
+    }
+
+    /* This ensures the submenu isn't highlighted when it shouldn't be */
+    #nav li.current_page_item ul li a {
+      color:#0b0b0b;
+      }
+
+    #nav li.current_page_item ul li a:hover {
+      color:#ccc;
+      }
+
+    #nav li.current_page_parent ul li a {
+      color:#0b0b0b;
+      }
+
+    #nav li.current_page_parent ul li a:hover {
+      color:#ccc;
+      }
+
+    #nav li.current_page_parent ul li.current_page_item a {
+      color:#c9140d;
+      }
+
+    *html #nav ul {
+          margin:0 0 0 -2px; /* ie 6 hack */
+    }
+
+#posts {
+  float: left;
+}
+
+.entry_text {
+  margin-top:20px;
+}
+
+
+#mailing {
+  position: relative;
+  z-index:10;
+}
+
+
+#sidebar {
+  position:relative;
+  float:left;
+  margin-top:100px;
+  margin-left:10px;
+}
+
+/* Underline text input */
+.in_underline {
+  background-color: transparent; 
+  border-style: solid; 
+  border-width: 0px 0px 2px 0px; 
+  border-color: #666;
+  position:relative;
+  top:-3px;
+}
+
+
+/* SOCIAL MEDIA BUTTONS */
+#socialbuttons {
+  display:block;
+  position:fixed;
+  left:10px;
+}
+
+
+ul.socialbuttons {
+	list-style:none;
+	padding: 0px;
+}
+
+ul.socialbuttons li a {
+	display:block;
+  background-repeat:no-repeat;
+}
+
+
+ul.socialbuttons li div {
+  display:none;
+  position:absolute;
+  padding: 10px;
+  width: 300px;
+  z-index:10;
+  background:rgba(255,255,255,0.8);
+  border: solid 1px #999;
+}
+
+ul.socialbuttons li div a {
+  background:none;
+  width: inherit;
+  display:inline;
+  height: inherit;
+}
 
 
 
-/*
-*	Normal Links
-*/
-ul.cssmenu li.news a {
-	background-position: 0 0;
-	width: 92px;
-	}
+/* Black coloured links */
+.blacklink a {
+  text-decoration:none;
+  color:#0b0b0b;
+}
 
-ul.cssmenu li.about a {
-	background-position: -92px 0;
-	width: 107px;
-	}
+.blacklink a:hover {
+  color:#666;
+}
 
-ul.cssmenu li.artists a {
-	background-position: -199px 0;
-	width: 129px;
-	}
+/* Styling the Tweets */
 
-ul.cssmenu li.releases a {
-	background-position: -328px 0;
-	width: 165px;
-	}
 
-ul.cssmenu li.events a {
-	background-position: -493px 0;
-	width: 122px;
-	}
+#twitter_update_list {
+  font-size: 13px;
+  line-height: 21px;
+  list-style: none;
+  }
+#twitter_update_list li {
+  padding-bottom: 7px;
+  margin-bottom: 9px;
+  border-bottom: 1px solid #D3D3D3;
+  }
+#twitter_update_list span {
+  color: #252525;
+  text-decoration: none;
+  }
+  
+#twitter_update_list span a {
+  color: #c9140d;
+  text-decoration: underline;
+  word-wrap: break-word;
+}
 
-ul.cssmenu li.shop a {
-	background-position: -615px 0;
-	width: 86px;
-	}
-	
-ul.cssmenu li.contact a {
-	background-position: -701px 0;
-	width: 136px;
-	}
-	
-ul.cssmenu li.links a {
-	background-position: -837px 0;
-	width: 83px;
-	}
+#twitter_update_list a {
+  color: #6f7276;
+  display: inline;
+  }
+  
 
-/*
-*	Hover Links
-*/
-ul.cssmenu li.news a:hover {
-	background-position: 0 -32px;
-	}
+a.soundcloud-dropbox:hover {
+  color: #1896D1 !important; 
+  background-color: transparent !important;
+}
 
-ul.cssmenu li.about a:hover {
-	background-position: -92px -32px;
-	}
+*html a.soundcloud-dropbox {
+  background-image: none !important; 
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='(http://a1.sndcdn.com/images/dropbox_small_white.png?6b62d62)', sizingMethod='crop') !important;
+}
 
-ul.cssmenu li.artists a:hover {
-	background-position: -199px -32px;
-	}
+html, body {
+  height: 100%;
+}
+#wrapper {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -100px; /* the bottom margin is the negative value of the footer's height */
+}
+#footer, .push {
+  height: 100px; /* .push must be the same height as .footer */
+}
 
-ul.cssmenu li.releases a:hover {
-	background-position: -328px -32px;
-	}
-	
-ul.cssmenu li.events a:hover {
-	background-position: -493px -32px;
-	}
-	
-ul.cssmenu li.shop a:hover {
-	background-position: -615px -32px;
-	}
-	
-ul.cssmenu li.contact a:hover {
-	background-position: -701px -32px;
-	}
-	
-ul.cssmenu li.links a:hover {
-	background-position: -837px -32px;
-	}
-	
-/*
-*	Clicked Links
-*/
 
-ul.cssmenu li.news a:active {
-	background-position: 0 -64px;
-	}
+/*imported from wordpress default */
 
-ul.cssmenu li.about a:active {
-	background-position: -92px -64px;
-	}
+img.alignright { 
+  padding: 4px;
+  margin: 0 0 2px 7px;
+  display: inline;
+  }
 
-ul.cssmenu li.artists a:active {
-	background-position: -199px -64px;
-	}
-	
-ul.cssmenu li.releases a:active {
-	background-position: -328px -64px;
-	}
+img.alignleft {
+  padding: 4px;
+  margin: 0 7px 2px 0;
+  display: inline;
+  }
 
-ul.cssmenu li.events a:active {
-	background-position: -493px -64px;
-	}
-	
-ul.cssmenu li.shop a:active {
-	background-position: -615px -64px;
-	}
-	
-ul.cssmenu li.contact a:active {
-	background-position: -701px -64px;
-	}
-	
-ul.cssmenu li.links a:active {
-	background-position: -837px -64px;
-	}
+img.aligncenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-/*
-*	Selected Links
-*/
-	
 
-ul.cssmenu li.news a.selected {
-	background-position: 0 -96px;
-	}
 
-ul.cssmenu li.about a.selected {
-	background-position: -92px -96px;
-	}
+.alignright {
+  float: right;
+  }
 
-ul.cssmenu li.artists a.selected {
-	background-position: -199px -96px;
-	}
+.alignleft {
+  float: left;
+  }
 
-ul.cssmenu li.releases a.selected {
-	background-position: -328px -96px;
-	}
-	
-ul.cssmenu li.events a.selected {
-	background-position: -493px -96px;
-	}
-	
-ul.cssmenu li.contact a.selected {
-	background-position: -701px -96px;
-	}
-	
-ul.cssmenu li.shop a.selected {
-	background-position: -615px -96px;
-	}
-	
-ul.cssmenu li.links a.selected {
-	background-position: -837px -96px;
-	}
+.aligncenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
