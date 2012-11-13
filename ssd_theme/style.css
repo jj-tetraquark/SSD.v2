@@ -1,0 +1,436 @@
+/*
+ *
+ * Theme Name: Superstar Destroyer Records
+ * Theme URI: http://superstardestroyer.co.uk
+ * Description: This is a theme built for Superstar Destroyer Records. It is not intended for general use. May the force be with you 
+ * Version: 0.5_beta
+ * License: All rights reserved
+ * Author: Jonny Dark
+ * Author URI: http://www.jonnydark.com
+ */
+
+/* Bare Necessities */
+body
+{
+  background-color: #FFF;
+  color: #0b0b0b;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size:12px;
+}
+
+a:link 
+{
+	color:#c9140d;
+}
+	
+a:visited 
+{
+	color:#CC0000;
+}
+
+img 
+{
+  border: none;
+}
+
+.centre, .center /*because I know I'm not going to be consistent because I suck*/
+{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*styles relating to the header*/
+#header
+{
+  max-width:960px;
+  width: 80%;
+}
+
+
+/*Image Stuff */
+
+
+.urline img {
+	border-bottom: none;
+	}
+
+.urline:hover img {
+	border-bottom: solid thin #c9140d;
+	}
+
+/*ids */
+	
+#credits {
+	font-family:Arial, Helvetica, sans-serif;
+	color:#999999;
+	font-size:10px;
+	clear:both;
+	}
+		  
+
+#press {
+	font:Verdana, Arial, Helvetica, sans-serif;
+	color:#666666;
+	font-size:14px
+	}
+
+#attributor {
+	color: #c9140d;
+	font-size:12px;
+	}
+
+/*Basic Stuff */ 
+		  
+a:link {
+	color:#c9140d;
+	}
+	
+a:visited {
+	color:#CC0000;
+	}
+
+body,td,th {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+}
+
+h5 {
+	font-family: Arial, Helvetica, sans-serif;
+	color:#c9140d;
+	margin-top:0px;
+	margin-bottom:0px;
+	text-decoration:none;
+	font-size:14px
+	}
+	
+h4 {
+	font-family: Arial, Helvetica, sans-serif;
+	color:#c91405;
+	padding-top:0px;
+	padding-bottom:0px;
+	font-size:16px
+	}
+
+.content {
+	width:700px;
+	margin-left:auto;
+	margin-right:auto;
+	clear:both;
+	}
+
+/* Classes */
+
+.headerlink a {
+	text-decoration:none;
+	}
+	
+.headerlink a:hover {
+	border-bottom:thin #c9140d solid;
+	}
+	
+
+.tableborder {
+	border: 1px solid #000;
+	padding:0;
+	}
+
+
+
+/* SOCIAL MEDIA BUTTONS */
+
+ul.socialbuttons {
+	list-style:none;
+	padding: 0px;
+	}
+
+ul.socialbuttons li {
+	float: left;
+	}
+	
+ul.socialbuttons li a {
+	display:block;
+	height:38px;
+	width: 40px;
+	background:url(images/socialbuttonssmall.jpg);
+	}
+	
+/* Normal Links */
+
+
+ul.socialbuttons li.facebook a {
+	background-position: 0 0;
+	}
+	
+ul.socialbuttons li.twitter a {
+	background-position: -40px 0;
+	}
+	
+ul.socialbuttons li.mixcloud a {
+	background-position: -80px 0;
+	}
+	
+ul.socialbuttons li.youtube a {
+	background-position: -120px 0;
+	}
+	
+ul.socialbuttons li.rss a {
+	background-position: -160px 0;
+	}
+
+ul.socialbuttons li.soundcloud a {
+	background-position: -200px 0;
+	}
+	
+ul.socialbuttons li.myspace a {
+	background-position: -240px 0;
+	}
+
+ul.socialbuttons li.lastfm a {
+	background-position: -280px 0;
+	}
+
+/* Hover Links */
+
+ul.socialbuttons li.facebook a:hover {
+	background-position: 0 -39px;
+	}
+	
+ul.socialbuttons li.twitter a:hover {
+	background-position: -40px -39px;
+	}
+	
+ul.socialbuttons li.mixcloud a:hover {
+	background-position: -80px -39px;
+	}
+	
+ul.socialbuttons li.youtube a:hover {
+	background-position: -120px -39px;
+	}
+	
+ul.socialbuttons li.rss a:hover {
+	background-position: -160px -39px;
+	}
+	
+ul.socialbuttons li.soundcloud a:hover {
+	background-position: -200px -39px;
+	}
+	
+ul.socialbuttons li.myspace a:hover {
+	background-position: -240px -39px;
+	}
+
+ul.socialbuttons li.lastfm a:hover {
+	background-position: -280px -39px;
+	}	
+/* Clicked Links */
+
+ul.socialbuttons li a:active {
+	background-position: 0 -78px;
+	}	
+
+ul.socialbuttons li.twitter a:active {
+	background-position: -40px -78px;
+	}
+	
+ul.socialbuttons li.mixcloud a:active {
+	background-position: -80px -78px;
+	}
+	
+ul.socialbuttons li.youtube a:active {
+	background-position: -120px -78px;
+	}
+	
+ul.socialbuttons li.rss a:active {
+	background-position: -160px -78px;
+	}
+
+ul.socialbuttons li.soundcloud a:active {
+	background-position: -200px -78px;
+	}
+	
+ul.socialbuttons li.myspace a:active {
+	background-position: -240px -78px;
+	}
+
+ul.socialbuttons li.lastfm a:active {
+	background-position: -280px -78px;
+	}
+
+/* NAVIGATION BAR */ 
+
+ul.cssmenu {
+	list-style: none;
+	padding: 0px;
+	}
+	
+ul, li {
+    list-style-type: none;
+}
+
+.displace {
+	position: absolute;
+	left: -5000px;
+	}
+
+ul.cssmenu li {
+	float: left;
+	}
+
+ul.cssmenu li a {
+	display: block;
+	height: 32px;
+	background: url('images/menu.jpg');
+	}
+
+
+
+/*
+*	Normal Links
+*/
+ul.cssmenu li.news a {
+	background-position: 0 0;
+	width: 92px;
+	}
+
+ul.cssmenu li.about a {
+	background-position: -92px 0;
+	width: 107px;
+	}
+
+ul.cssmenu li.artists a {
+	background-position: -199px 0;
+	width: 129px;
+	}
+
+ul.cssmenu li.releases a {
+	background-position: -328px 0;
+	width: 165px;
+	}
+
+ul.cssmenu li.events a {
+	background-position: -493px 0;
+	width: 122px;
+	}
+
+ul.cssmenu li.shop a {
+	background-position: -615px 0;
+	width: 86px;
+	}
+	
+ul.cssmenu li.contact a {
+	background-position: -701px 0;
+	width: 136px;
+	}
+	
+ul.cssmenu li.links a {
+	background-position: -837px 0;
+	width: 83px;
+	}
+
+/*
+*	Hover Links
+*/
+ul.cssmenu li.news a:hover {
+	background-position: 0 -32px;
+	}
+
+ul.cssmenu li.about a:hover {
+	background-position: -92px -32px;
+	}
+
+ul.cssmenu li.artists a:hover {
+	background-position: -199px -32px;
+	}
+
+ul.cssmenu li.releases a:hover {
+	background-position: -328px -32px;
+	}
+	
+ul.cssmenu li.events a:hover {
+	background-position: -493px -32px;
+	}
+	
+ul.cssmenu li.shop a:hover {
+	background-position: -615px -32px;
+	}
+	
+ul.cssmenu li.contact a:hover {
+	background-position: -701px -32px;
+	}
+	
+ul.cssmenu li.links a:hover {
+	background-position: -837px -32px;
+	}
+	
+/*
+*	Clicked Links
+*/
+
+ul.cssmenu li.news a:active {
+	background-position: 0 -64px;
+	}
+
+ul.cssmenu li.about a:active {
+	background-position: -92px -64px;
+	}
+
+ul.cssmenu li.artists a:active {
+	background-position: -199px -64px;
+	}
+	
+ul.cssmenu li.releases a:active {
+	background-position: -328px -64px;
+	}
+
+ul.cssmenu li.events a:active {
+	background-position: -493px -64px;
+	}
+	
+ul.cssmenu li.shop a:active {
+	background-position: -615px -64px;
+	}
+	
+ul.cssmenu li.contact a:active {
+	background-position: -701px -64px;
+	}
+	
+ul.cssmenu li.links a:active {
+	background-position: -837px -64px;
+	}
+
+/*
+*	Selected Links
+*/
+	
+
+ul.cssmenu li.news a.selected {
+	background-position: 0 -96px;
+	}
+
+ul.cssmenu li.about a.selected {
+	background-position: -92px -96px;
+	}
+
+ul.cssmenu li.artists a.selected {
+	background-position: -199px -96px;
+	}
+
+ul.cssmenu li.releases a.selected {
+	background-position: -328px -96px;
+	}
+	
+ul.cssmenu li.events a.selected {
+	background-position: -493px -96px;
+	}
+	
+ul.cssmenu li.contact a.selected {
+	background-position: -701px -96px;
+	}
+	
+ul.cssmenu li.shop a.selected {
+	background-position: -615px -96px;
+	}
+	
+ul.cssmenu li.links a.selected {
+	background-position: -837px -96px;
+	}
