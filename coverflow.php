@@ -15,14 +15,12 @@ get_header(); ?>
         if (have_posts()) : 
           while (have_posts()) : the_post(); 
       ?>
-        <div id="pagetext"> 
         <h1><?php the_title(); ?></h1>
           <div id="contentFlow" class="ContentFlow">
               <!-- should be place before flow so that contained images will be loaded first -->
               <div class="loadIndicator"><div class="indicator"></div></div>
 
               <div class="flow">
-
                   <div class="item">
                       <div class=content">THIS IS SOME SMASHING CONTENT DAWG!</div>
                       <div class="caption">pic0: some stripes</div>
@@ -31,33 +29,8 @@ get_header(); ?>
                   <img class="content" src="<?php bloginfo('template_directory'); ?>/coverflow_temp/1.jpg" />
                   <div class="caption"><h4>Nowhere Again - Now I Am Twenty</h4>Debut E.P from our favourite shoegaze/prog/grunge band</div>
                   </div>
-                  <div class="item">
-                      <img class="content" src="pics/pic2.png"/>
-                      <div class="caption">pic2: some stripes</div>
-                  </div>
-                  <div class="item">
-                      <img class="content" src="pics/pic1.png"/>
-                      <div class="caption">pic1: some stripes</div>
-                  </div>
-
-                  <div class="item">
-                      <img class="content" src="pics/pic0.png"/>
-                      <div class="caption">pic0: some stripes</div>
-                  </div>
-                  <div class="item">
-                      <img class="content" src="pics/pic1.png"/>
-                      <div class="caption">pic1: some stripes</div>
-                  </div>
-                  <div class="item">
-                      <img class="content" src="pics/pic2.png"/>
-                      <div class="caption">pic2: some stripes</div>
-                  </div>
-                  <div class="item">
-                      <img class="content" src="pics/pic1.png"/>
-                      <div class="caption">pic1: some stripes</div>
-                  </div>
-
-                  <div class="item">
+                  
+                 <div class="item">
                       <img class="content" src="pics/pic0.png"/>
                       <div class="caption">pic0: some stripes</div>
                   </div>
@@ -84,7 +57,6 @@ get_header(); ?>
 
 
             <?php the_content(); ?>
-        </div>
       <?php
         endwhile;
         endif;
