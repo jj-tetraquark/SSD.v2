@@ -4,7 +4,7 @@
  */
 
 get_header(); ?>
-<script language="JavaScript" type="text/javascript" src="<?php bloginfo('template_directory'); ?>/scripts/contentflow.js"></script>
+<script language="JavaScript" type="text/javascript" src="<?php bloginfo('template_directory'); ?>/scripts/contentflow.js" load="white"></script>
     <script tyle="text/javascript">
         var cf = new ContentFlow('contentFlow', {reflectionColor: "#000000"});
     </script>
