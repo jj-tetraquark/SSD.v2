@@ -22,6 +22,7 @@
 
 
     <!-- Load the standard stylesheet -->
+    <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory')?>/reset.min.css" type="text/css" media="screen" charset="utf-8">
     <link href="<?php bloginfo( 'stylesheet_url' ); ?>" type="text/css" rel="stylesheet" />
     
     <!-- Scripts -->
@@ -41,30 +42,7 @@
 
     <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/scripts/adapt.min.js" charset="utf-8"></script>
  
-    <script type="text/javascript" charset="utf-8">
-      <!--
-      jQuery(document).ready(function ($) { 
-           
-         var config = {    
-           over: function () {$('ul', this).slideDown('fast');},  // function = onMouseOver callback (REQUIRED)    
-           timeout: 250, // number = milliseconds delay before onMouseOut    
-           out:  function () {$('ul', this).slideUp('fast');}, // function = onMouseOut callback (REQUIRED)   
-         interval: 100
-              };
-              
-      $('#nav li').hoverIntent(config); 
-
-        var social_config = {
-          over: function() {$('div',this).fadeIn('fast');},
-          timeout: 300,
-          out: function() {$('div', this).fadeOut('fast');},
-          interval: 100
-          };
-
-      $('#socialbuttons li').hoverIntent(social_config);
-      });
-    -->
-    </script>
+        <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/scripts/global.js" charset="utf-8"> </script>
 
   </head>
   <body>
