@@ -1,0 +1,124 @@
+/*
+ *
+ * Theme Name: Superstar Destroyer Records
+ * Theme URI: http://superstardestroyer.co.uk
+ * Description: This is a theme built for Superstar Destroyer Records. It is not intended for general use. May the force be with you 
+ * Version: 0.5_beta
+ * License: All rights reserved
+ * Author: Jonny Dark
+ * Author URI: http://www.jonnydark.com
+ */
+
+@grey: #666666;
+@darkgrey: #0b0b0b;
+@litgrey: #999999;
+@red: #c9140d;
+@redVisited: #CC0000;
+
+body {
+  background-color: white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1em;
+}
+
+/*
+  Typography
+*/
+
+@font-face {
+    font-family: 'Bebas';
+    src: url('css/fonts/bebas_mod-webfont.eot');
+    src: url('css/fonts/bebas_mod-webfont.eot?#iefix') format('embedded-opentype'),
+         url('css/fonts/bebas_mod-webfont.woff') format('woff'),
+         url('css/fonts/bebas_mod-webfont.ttf') format('truetype'),
+         url('css/fonts/bebas_mod-webfont.svg#BebasRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+a {
+  color: @red;
+  &:visited {
+    color: @redVisited;
+  }
+}
+
+.bebas {
+  font-family: 'Bebas', Impact, sans-serif;
+  font-size: 120%;
+  color: @darkgrey;
+  a {
+    color: @darkgrey;
+    text-decoration: none;
+
+    &:hover {
+      color: @grey; 
+    }
+
+    &:visited {
+      color: @darkgrey;
+    }
+  }
+}
+
+h1 {
+  .bebas;
+}
+
+h3 {
+  .bebas;
+}
+
+
+/*
+  Other general formatting
+*/
+
+
+img {
+  border: none;
+}
+
+
+/*
+  Nav Bar
+*/
+
+#nav {
+  .bebas;
+  li {
+    float:left;
+    display:inline-block;
+    position:relative;
+    z-index:5; 
+    margin:0 1px;
+    text-align:center;
+  }
+}
+
+
+/*
+  General Purpose Classes
+*/
+
+.clear {
+  clear: both;
+}
+
+.hidden {
+  display: none;
+}
+
+.displace {
+	text-indent: -5000px;
+}
+
+
+#credits {
+  padding-top:30px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#999999;
+	font-size:10px;
+	clear:both;
+}
